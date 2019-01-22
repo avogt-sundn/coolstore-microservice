@@ -178,7 +178,7 @@ PRJ_DEVELOPER=developer-$PRJ_SUFFIX
 
 # config
 GITHUB_ACCOUNT=${GITHUB_ACCOUNT:-jbossdemocentral}
-GITHUB_REF=${GITHUB_REF:-stable-ocp-3.9}
+GITHUB_REF=${GITHUB_REF:-avogt-3.9}
 GITHUB_URI=https://github.com/$GITHUB_ACCOUNT/coolstore-microservice.git
 COOLSTORE_IMAGES_NAMESPACE=${COOLSTORE_IMAGES_NAMESPACE:-coolstore-builds}
 

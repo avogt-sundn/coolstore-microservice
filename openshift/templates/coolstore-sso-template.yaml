@@ -278,7 +278,7 @@ objects:
               - -i
               - -c
               - psql -h 127.0.0.1 -U coolstore -q -d coolstore -c
-                'SELECT 1'
+                  'SELECT 1'
             initialDelaySeconds: 5
             timeoutSeconds: 1
           ports:
@@ -298,7 +298,7 @@ objects:
     labels:
       application: "sso"
   sercrets:
-    - name: "sso-app-secret"
+  - name: "sso-app-secret"
 - kind: Secret
   apiVersion: v1
   name: sso-app-secret
